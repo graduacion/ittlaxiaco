@@ -190,7 +190,7 @@ h3{
 **/
 .header {
     position: relative;
-    height: 110vh;
+    height: 90vh;
     min-height: 600px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -204,10 +204,10 @@ h3{
     -webkit-justify-content: center;
         -ms-flex-pack: center;
             justify-content: center;
-    background-image: url(img/back.jpg);
-    background-size: cover;
+    background-image: url(img/fondo.png);
+    background-size: 500px;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: top center;
   }
 
 .work{
@@ -283,6 +283,10 @@ h3{
 }
 
 .columns{
+    background-image: url('img/diseno-floral.png');
+    background-size: 150px;
+    background-position: right bottom;
+    background-repeat:no-repeat;
     display: flex;
     justify-content: space-between;
     gap: 20px;
@@ -296,14 +300,11 @@ h3{
 
 
 .parrafos{
-    
-    
-    background-image: url('img/flores.jpg');    
+                
     background-repeat: no-repeat;
     background-position-x: center;
-    background-position-y: top;
-    background-size: 250px;
-    padding-top: 150px;    
+    background-position-y:center;
+    background-size: 150px;     
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
