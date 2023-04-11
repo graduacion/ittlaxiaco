@@ -321,9 +321,14 @@ h3{
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: top;
-    padding-top: 150px;
-    text-align: center;
+    padding-top: 150px;    
 }
+
+.listas{
+    float: left;
+    text-align: left;
+}
+
 .civil{
     
     background-color: #FFFFFF;    
