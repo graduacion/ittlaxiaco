@@ -13,7 +13,7 @@ html{
 }
 
 body{
-    background-color: var(--background-color);
+    background-color: var(--background-color);    
     font-family: 'Work Sans', Arial, Helvetica, sans-serif;
     line-height: 2;
     padding: 0;
@@ -297,11 +297,12 @@ h3{
 
 .parrafos{
     
-    background-color: #FFFFFF;    
-    background-size: 60px;
+    
+    background-image: url('img/flores.jpg');    
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: top;
+    background-size: 250px;
     padding-top: 150px;    
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -337,10 +338,12 @@ h3{
     fill: var(--highlight-color);
 }
 
-footer{
-    background-color: #000;
-    height: 450px;
-    margin-top: -170px;
+.footer{
+    background-image: url('img/footer.jpg');  
+    background-size: 250px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
 }
 
 #screen{
