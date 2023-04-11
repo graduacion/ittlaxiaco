@@ -190,7 +190,7 @@ h3{
 **/
 .header {
     position: relative;
-    height: 90vh;
+    height: 110vh;
     min-height: 600px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -283,10 +283,9 @@ h3{
 }
 
 .columns{
-    background-image: url('img/diseno-floral.png');
-    background-size: 150px;
-    background-position: right bottom;
-    background-repeat:no-repeat;
+    background-image: url('img/goldd.png');
+    background-size: 450px;
+    background-position: center center;    
     display: flex;
     justify-content: space-between;
     gap: 20px;
