@@ -190,7 +190,7 @@ h3{
 **/
 .header {
     position: relative;
-    height: 60vh;
+    height: 110vh;
     min-height: 600px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -204,7 +204,7 @@ h3{
     -webkit-justify-content: center;
         -ms-flex-pack: center;
             justify-content: center;
-    background-image: url(img/fondo.jpg);
+    background-image: url(img/back.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
